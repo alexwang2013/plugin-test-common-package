@@ -1,6 +1,6 @@
 package main
 
-import "github.com/alexwang2013/plugin-test-common-package/src/printer"
+import printer "github.com/alexwang2013/plugin-test-common-package/src"
 
 func main() {
 	str := "Hello world"
