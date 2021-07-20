@@ -3,9 +3,9 @@ package printer
 import "fmt"
 
 type Printer struct {
-	var Str string
+	Str string
 }
 
-func(p *Printer)print(){
+func (p *Printer) Print() {
 	fmt.Println(p.Str)
 }
